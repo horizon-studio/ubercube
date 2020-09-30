@@ -1,12 +1,15 @@
 ﻿using System;
+using Ubercube.Core;
 
-namespace Client
+namespace Ubercube.Client
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ClientApplication app = new ClientApplication();
+            ApplicationHost host = new ApplicationHost(app);
+            host.Start();
         }
     }
 }
