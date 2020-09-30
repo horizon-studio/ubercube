@@ -1,32 +1,12 @@
-# Prerequisites
-*.d
+# Jetbrain
+.idea
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Cache
+/projects/Client/obj
+/projects/Core/obj
+/projects/Server/obj
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Bin
+/projects/Core/bin
+/projects/Client/bin
+/projects/Server/bin
