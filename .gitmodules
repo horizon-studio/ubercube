@@ -1,0 +1,3 @@
+[submodule "libs/pulsar"]
+	path = libs/pulsar
+	url = https://github.com/horizon-studio/pulsar
