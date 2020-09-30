@@ -5,4 +5,8 @@
         <RootNamespace>Ubercube.Core</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="obj\Debug\netcoreapp3.1" />
+    </ItemGroup>
+
 </Project>
